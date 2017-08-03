@@ -2,7 +2,11 @@ var path = require('path')
 var utils = require('./utils')
 var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
+<<<<<<< HEAD
 var webpack = require("webpack") 
+=======
+// var webpack = require("webpack") 
+>>>>>>> HenzoRobin/master
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -63,6 +67,7 @@ module.exports = {
         }
       }
     ],
+<<<<<<< HEAD
     plugins: [  
       new webpack.optimize.CommonsChunkPlugin('common.js'),  
       new webpack.ProvidePlugin({  
@@ -70,5 +75,14 @@ module.exports = {
      $: "jquery"  
      })  
     ]  
+=======
+    // plugins: [  
+    //   new webpack.optimize.CommonsChunkPlugin('common.js'),  
+    //   new webpack.ProvidePlugin({  
+    //  jQuery: "jquery",  
+    //  $: "jquery"  
+    //  })  
+    // ]  
+>>>>>>> HenzoRobin/master
   }
 }
