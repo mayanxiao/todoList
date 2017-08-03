@@ -1,11 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-<<<<<<< HEAD
-import $ from 'jquery'  
-=======
 // import $ from 'jquery'  
->>>>>>> HenzoRobin/master
 import Layout from './Layout'
 import VueRouter from 'vue-router'
 import slides from './components/slides'

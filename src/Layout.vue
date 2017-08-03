@@ -111,11 +111,9 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import $ from 'jquery'
-=======
+
 // import $ from 'jquery'
->>>>>>> HenzoRobin/master
+
 export default {
   data:function(){
     return {
